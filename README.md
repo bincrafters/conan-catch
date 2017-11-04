@@ -1,4 +1,4 @@
-[![Download](https://api.bintray.com/packages/bincrafters/conan/Catch%3Abincrafters/images/download.svg?version=1.9.6%3Astable)](https://bintray.com/bincrafters/conan/Catch%3Abincrafters/1.9.6%3Astable/link)
+[![Download](https://api.bintray.com/packages/bincrafters/conan/Catch%3Abincrafters/images/download.svg?version=2.0.1%3Astable)](https://bintray.com/bincrafters/conan/Catch%3Abincrafters/2.0.1%3Astable/link)
 
 # A modern, C++-native, header-only, framework for unit-tests, TDD and BDD
 
@@ -10,14 +10,14 @@ The packages generated with this **conanfile** can be found in [Bintray](https:/
 
 ### Basic setup
 
-    $ conan install Catch/1.9.6@bincrafters/stable
+    $ conan install Catch/2.0.1@bincrafters/stable
 
 ### Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
 
     [requires]
-    Catch/1.9.6@bincrafters/stable
+    Catch/2.0.1@bincrafters/stable
 
     [generators]
     txt
@@ -44,7 +44,7 @@ The following command both runs all the steps of the conan file, and publishes t
 
 ## Upload
 
-    $ conan upload Catch/1.9.6@bincrafters/stable --all -r bincrafters
+    $ conan upload Catch/2.0.1@bincrafters/stable --all -r bincrafters
 
 ### License
 [Boost](LICENSE)

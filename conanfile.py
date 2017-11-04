@@ -5,10 +5,8 @@ from conans import ConanFile, tools
 
 
 class CatchConan(ConanFile):
-    """Download Catch Cpp, build and create package
-    """
     name = "Catch"
-    version = "1.9.6"
+    version = "2.0.1"
     generators = "cmake"
     url = "https://github.com/bincrafters/conan-catch"
     license = "www.boost.org/LICENSE_1_0.txt"
@@ -16,9 +14,8 @@ class CatchConan(ConanFile):
 
     def source(self):
         header_name = "catch.hpp"
-        tools.download("https://github.com/philsquared/Catch/releases/download/v%s/%s" % (self.version, header_name), header_name)
-        tools.check_md5(header_name, "6e3c2c7dd06d31ae9112b3816da24712")
-
+        tools.download("https://github.com/catchorg/Catch2/releases/download/v%s/%s" % (self.version, header_name), header_name)
+        
     def package(self):
         self.copy(pattern="catch.hpp", dst="include")
 

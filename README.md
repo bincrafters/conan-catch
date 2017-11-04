@@ -1,4 +1,4 @@
-[![Download](https://api.bintray.com/packages/bincrafters/conan/Catch%3Abincrafters/images/download.svg?version=1.9.6%3Astable)](https://bintray.com/bincrafters/conan/Catch%3Abincrafters/1.9.6%3Astable/link)
+[![Download](https://api.bintray.com/packages/bincrafters/public-conan/Catch%3Abincrafters/images/download.svg?version=1.9.6%3Astable)](https://bintray.com/bincrafters/public-conan/Catch%3Abincrafters/1.9.6%3Astable/link)
 
 # A modern, C++-native, header-only, framework for unit-tests, TDD and BDD
 

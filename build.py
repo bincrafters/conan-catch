@@ -9,16 +9,16 @@ import os
 
 def get_module_location():
     repo = os.getenv("CONAN_MODULE_REPO", "https://raw.githubusercontent.com/bincrafters/bincrafters-package-tools")
-    branch = os.getenv("CONAN_MODULE_BRANCH", "master/bincrafters")
+    branch = os.getenv("CONAN_MODULE_BRANCH", "master")
     return repo + "/" + branch
 
     
 def get_module_name():
-    return os.getenv("CONAN_MODULE_NAME", "build_template_header_only")
+    return os.getenv("CONAN_MODULE_NAME", "bincrafters")
 
     
 def get_module_filename():
-    return get_module_name() + ".py"
+    return get_module_name() + "/build_template_header_only.py"
     
     
 def get_module_url():

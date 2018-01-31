@@ -8,8 +8,8 @@ import os
 
 
 def get_module_location():
-    repo = os.getenv("CONAN_MODULE_REPO", "https://raw.githubusercontent.com/bincrafters/conan-templates")
-    branch = os.getenv("CONAN_MODULE_BRANCH", "package_tools_modules")
+    repo = os.getenv("CONAN_MODULE_REPO", "https://raw.githubusercontent.com/bincrafters/bincrafters-package-tools")
+    branch = os.getenv("CONAN_MODULE_BRANCH", "master/bincrafters")
     return repo + "/" + branch
 
     
